@@ -1,0 +1,21 @@
+.Login {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    gap: 1rem;
+}
+
+.Login-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.Login-line > input {
+    flex-grow: 1;
+}
